@@ -1,2 +1,2 @@
 # ToDoList
-To do List - React
+To do List - Node, React, Express, MongoDB
