@@ -11,7 +11,8 @@ body {
 .app {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #efefef;
+    background: rgb(114,253,255);
+    background: linear-gradient(0deg, rgba(114,253,255,1) 0%, rgba(255,63,141,1) 100%);
     padding: 20px 30px;
     border-radius: 10px;
 }
