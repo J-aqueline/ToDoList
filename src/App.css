@@ -11,8 +11,8 @@ body {
 .app {
     max-width: 600px;
     margin: 0 auto;
-    background: rgb(114,253,255);
-    background: linear-gradient(0deg, rgba(114,253,255,1) 0%, rgba(255,63,141,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(236, 181, 243) 0%, rgb(194, 231, 249) 100%);
     padding: 20px 30px;
     border-radius: 10px;
 }
@@ -40,12 +40,13 @@ input {
 button {
 
     color: #fff;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     opacity: .8;
     transition: .3s;
+    margin-right: 10px;
 }
 
 .x {
@@ -60,6 +61,23 @@ button:hover {
     opacity: 1.8;
 }
 
+.todo-list {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1c0b19;
+}
+
+.todo {
+    background-color: #fef8ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .todo-form {
     padding-bottom: 1.8rem;
 }
@@ -70,4 +88,26 @@ input, select {
     border: 1px solid #ddd;
     border-radius: 20px;
     width: 100%;
+}
+
+
+.filter, .search{
+    
+    border-bottom: 1px solid #1c0b19;
+    margin-bottom: 20px;
+}
+
+.asc, .desc {
+    background-color: #0094b2;
+    margin-bottom: 15px;
+}
+
+.filter-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.filter-options div {
+    flex: 1 1 0;
 }
