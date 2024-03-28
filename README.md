@@ -19,7 +19,7 @@ The To-Do-List is a simple task management application built with React. It allo
 
 - npm install
 - npm start
-- Open your browser and visit http://localhost:3000 to view the app
+- Open your browser and visit [http://localhost:5173/] to view the app
 
 Enter the task text and select a category from the dropdown.
 Click the "Add Task" button.
