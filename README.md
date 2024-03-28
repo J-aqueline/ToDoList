@@ -2,6 +2,9 @@
 ## Description
 The To-Do-List is a simple task management application built with React. It allows users to create, manage, and organize tasks based on categories such as work, personal, and studies.
 
+![image](https://github.com/J-aqueline/ToDoList/assets/57812389/5203ecf9-f42b-46a8-99f8-592a16a0aa86)
+
+
 ## Features
 1. Add new tasks with text and category
 2. Mark tasks as completed
